@@ -29,6 +29,8 @@
 
 The PUSH Showrunners handles the channels created and maintaned by us. It also shows how easy it is to interact with the protocol to build highly customized notifications for your dApp, smart contracts or even centralized services.
 
+---
+
 ## Installation and Set Up Guide
 
 - Install docker 
@@ -51,6 +53,7 @@ npm start
 - To stop running the docker, press ```Ctrl + C``` and enter
 ```docker-compose down```
 
+---
 
 ## Showrunner Channels
 
@@ -59,6 +62,8 @@ npm start
 - Currently notifications can be recieved through our [Google Play Alpha App](https://play.google.com/store/apps/details?id=io.epns.epns)
 - The alpha protocol and product are working and are in ropsten network
 - **Have an idea for protocol or product?** Awesome! get in touch by joining our [Telegram Group](https://t.me/epnsproject) or following us on [Twitter](https://twitter.com/epnsproject)
+
+---
 
 ## Technical Details
 
@@ -92,6 +97,8 @@ We would need external services of:
 
 For local ease of development, we make use of [Docker](https://docs.docker.com/get-docker/).
 
+---
+
 ## Resources
 - **[Website](https://push.org)** To checkout our Product.
 - **[Docs](https://docs.push.org/developers/)** For comprehensive documentation.
@@ -100,6 +107,7 @@ For local ease of development, we make use of [Docker](https://docs.docker.com/g
 - **[GitHub](https://github.com/ethereum-push-notification-service)** for source code, project board, issues, and pull requests.
 - **[Twitter](https://twitter.com/pushprotocol)** for the latest updates on the product and published blogs.
 
+---
 
 ## Contributing
 
@@ -113,6 +121,8 @@ Not sure where to start? Join our discord and we will help you get started!
 
 
 <a href="https://discord.gg/pushprotocol" title="Join Our Community"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/playerunknown-battlegrounds-bgparty-15.png" width="200" alt="Discord" /></a>
+
+---
 
 ## License
 Check out our License <a href='https://github.com/sumithprabhu/push-showrunners-framework/blob/main/license-v1.md'>HERE </a>
