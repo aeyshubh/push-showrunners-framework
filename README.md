@@ -38,14 +38,16 @@ The PUSH Showrunners handles the channels created and maintaned by us. It also s
 ``` 
 git clone https://github.com/ethereum-push-notification-service/epns-showrunners-staging-v2.git
 ```
-- Open the root folder in a terminal and enter 
-```docker-compose up```. This initalises mongodb, redis and ipfs local instances
+- Open the root folder in a terminal and enter below code ,this initalises mongodb, redis and ipfs local instances
+```
+docker-compose up
+``` 
 - Open the root folder in another terminal and enter
 ```
-npm install
+yarn install
 ```
 ```
-npm start
+npm run dev
 ```
 
 ### To exit 
@@ -58,10 +60,9 @@ npm start
 ## Showrunner Channels
 
 
-- To subscribe to channels, please visit our [Alpha dApp](https://app.epns.io)
-- Currently notifications can be recieved through our [Google Play Alpha App](https://play.google.com/store/apps/details?id=io.epns.epns)
-- The alpha protocol and product are working and are in ropsten network
-- **Have an idea for protocol or product?** Awesome! get in touch by joining our [Telegram Group](https://t.me/epnsproject) or following us on [Twitter](https://twitter.com/epnsproject)
+- To subscribe to channels, please visit our [Push dApp](https://app.epns.io)
+- Currently notifications can be recieved through our [Google Play Push App](https://play.google.com/store/apps/details?id=io.epns.epns) and [Apple Push App](https://apps.apple.com/us/app/push-epns/id1528614910)
+- **Have an idea for protocol or product?** Awesome! get in touch by joining our [Discord Server](https://discord.gg/pushprotocol) or following us on [Twitter](https://twitter.com/pushprotocol)
 
 ---
 
