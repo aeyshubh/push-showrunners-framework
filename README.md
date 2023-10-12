@@ -83,7 +83,10 @@ The Showrunners run on node.js server and are modularized on the ideas and archi
 - **showrunners** are the actual channels and contain logic which is required for them to construct notification according to their use cases
 - **middlewares and routes** will probably not be active on your production server but are given to test the channel in development mode. for example: triggering functions using postman or similar service and seeing the response
 - **database** the architecture has been changed from MongoDB to mysql to show how easy it is to have either of the database if required
-
+- ** change SHOWRUNNERS_ENV variable whenever you want to test a channel on Production or else keep it staging
+```
+SHOWRUNNERS_ENV = prod/staging (in .env file)
+``` 
 ### Credits
 
 - [Bulletproof NodeJS](https://github.com/santiq/bulletproof-nodejs)
